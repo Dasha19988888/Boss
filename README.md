@@ -1,3 +1,3 @@
 # Boss
 * my podavan  Dasha my girlfrend i was remember
-This project new
+This project new для меня
