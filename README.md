@@ -1,2 +1,2 @@
 # Boss
-* my podavan  Dasha my girlfrend  i was remember
+* my podavan  Dasha my girlfrend i was remember
