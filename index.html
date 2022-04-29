@@ -1,15 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./normalize.css">
+  <title>Document</title>
 </head>
 
-<body>
-    <P> Теперь попробую без Шабалина </P>
+<body class="page-body">
+  <header class="page-header">
+
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">открыть меню</button>
+    </nav>
+
+    <div class="main__wrapper">
+
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item">
+          <a href="#" class="site-list__item--logo">ТКАНИ</a>
+        </li>
+        <li class="site-list__item">
+          <form action="" method="get">
+            <label for="search">Санкт-Петербург</label>
+            <input type="search" placeholder="Я ищу" id="search" class="site-list__item--input">
+          </form>
+        </li>
+        <li class="site-list__item">
+          <a href="tel:380935212041" class="site-list__item--phone">8 800 900 70 90</a>
+          <div class="site-list__item--timework">Пн-вс: 10:00 - 21:00</div>
+        </li>
+        <li class="site-list__item">
+          <div class="site-list__item--icons">
+            <button class="icon-btn" type="button">
+              <img src="#" alt="">
+            </button>
+            <button class="icon-btn" type="button">
+              <img src="#" alt="">
+            </button>
+            <button class="icon-btn" type="button">
+              <img src="#" alt="">
+            </button>
+          </div>
+        </li>
+      </ul>
+      <ul class="main-nav__list user-list">
+        <li class="user-list__item user-list__item--active">Для одежды</li>
+        <li class="user-list__item ">Для интерьера</li>
+        <li class="user-list__item ">Мебельные</li>
+        <li class="user-list__item ">Фурнитура</li>
+        <li class="user-list__item ">Пряжа</li>
+        <li class="user-list__item ">Новогодние</li>
+        <li class="user-list__item ">Для шитья</li>
+      </ul>
+
+    </div>
+
+  </header>
+  <main class="page-maim">
+
+    <section class="sale">
+      <h2 class="sale__title"></h2>
+      <img src="#" alt="" class="sale__img">
+    </section>
+
+    <section class="popular">
+      <h2 class="popular__title"></h2>
+      <div class="popular__wrapper">
+        <div class="popular__card">
+          <img src="#" alt="" class="popular__card-pic">
+          <div class="popular__card-desc"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="watched">
+      <h2 class="watched__title">Вы смотрели</h2>
+      <div class="watched__wrap">
+        <div class="watched__item">
+          <img src="#" alt="" class="watched__item-pic">
+          <div class="watched__item-desc"></div>
+          <div class="watched__item-basket"></div>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="subscribe__wrapper">
+        <h2 class="subscribe__title"></h2>
+        <div class="subscribe__subtitile"></div>
+        <form action="" method="get">
+          <input type="text">
+          <input type="button" value="">
+        </form>
+        <div class="subscribe__desc"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <div class="page-footer__wrapper-contact"></div>
+      <div class="page-footer__wrapper-pay"></div>
+      <div class="page-footer__wrapper-map"></div>
+    </div>
+  </footer>
+
 </body>
 
 </html>
